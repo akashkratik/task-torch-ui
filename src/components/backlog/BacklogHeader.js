@@ -17,18 +17,9 @@ const BacklogHeader = ({sidePanelEnabled}) => {
             <h2 className='backlog-heading'>Backlog</h2>
         </div>
         <div className='view-options'>
-            {/* <Select 
-            variant='filled'
-            autoWidth
-            label='Test View'
-            >
-                <MenuItem value='sprint'  onClick={(e) => onTestViewChange(e.target.value)}>By Spring</MenuItem>
-                <MenuItem value='issues' onClick={(e) => onTestViewChange(e.target.value)}>By Issues</MenuItem>
-            </Select> */}
             <DropdownButton textToDispay='Test View' type=''/>
             <DropdownButton textToDispay='Board' type=''/>
             <DropdownButton textToDispay='Meeting' />
-
         </div>
     </div>
   )
